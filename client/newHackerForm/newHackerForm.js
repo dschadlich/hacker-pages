@@ -1,5 +1,3 @@
-Meteor.subscribe('hackers');
-
 Template.newHackerForm.events({
   'submit #hackerForm' : function(event, template) {
 
