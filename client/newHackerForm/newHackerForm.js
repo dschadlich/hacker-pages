@@ -16,6 +16,14 @@ Template.newHackerForm.events({
     }
 
     Meteor.call('hackers.insert', newHacker);
+    // Hackers.insert(newHacker, function (error, result) {
+    // //  console.log (error);
+    //   if (error !== null){
+    //     alert("OPERATION FAILED.");
+    //   }else{
+    //     alert("OPERATION SUCCESSFUL.");
+    //   }
+    // });
   }
 
 });
